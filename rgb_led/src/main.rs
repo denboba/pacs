@@ -18,7 +18,7 @@ async fn main(_spawner: Spawner) {
     
     loop {
         // Red
-        pwm_red.set_duty_cycle(max_duty / 2).expect("TODO: panic message"); // 50% duty cycle
+        pwm_red.set_duty_cycle(max_duty / 30).expect("TODO: panic message"); // 50% duty cycle
         pwm_green.set_duty_cycle(0).expect("TODO: panic message");
         pwm_blue.set_duty_cycle(0).expect("TODO: panic message");
         Timer::after(Duration::from_secs(2)).await;
