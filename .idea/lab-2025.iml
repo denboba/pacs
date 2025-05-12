@@ -5,8 +5,10 @@
       <sourceFolder url="file://$MODULE_DIR$/embassy-lab-utils/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/buzzer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rc522/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rgb_led/bin/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/rgb_led/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/oled_ssd1306/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
